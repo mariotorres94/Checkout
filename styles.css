@@ -178,6 +178,11 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  max-width: 100%;
+}
+
+.section__formulario form .country div {
+  width: 48%;
 }
 
 .section__formulario form .save__information {

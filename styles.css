@@ -1,0 +1,281 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.titulo {
+  padding: 32px 18px 0 18px;
+}
+
+.titulo h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+}
+
+.section {
+  margin: 18px;
+  background-color: #F2F2F2;
+  border-radius: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.section .card__1 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 45% 55%;
+      grid-template-columns: 45% 55%;
+  padding: 28px;
+}
+
+.section .card__1--img img {
+  border-radius: 20px;
+  width: 100%;
+}
+
+.section .card__1--price {
+  padding-left: 20px;
+}
+
+.section .card__1--price div:first-child {
+  margin-bottom: 43px;
+}
+
+.section .card__1--price div:first-child h3 {
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.section .card__1--price div:first-child div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section .card__1--price div:first-child div p {
+  font-size: 14px;
+  color: #F2994A;
+}
+
+.section .card__1--price div:first-child div span {
+  font-size: 10px;
+  text-decoration: line-through;
+}
+
+.section .card__1--price .button {
+  text-align: center;
+  border: 1px solid #828282;
+  border-radius: 12px;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #333333;
+}
+
+.section .card__1--price .button span {
+  background-color: #E0E0E0;
+  padding: 5px 10px;
+  font-size: 18px;
+  font-weight: 200;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #828282;
+}
+
+.section .total {
+  margin-top: 87px;
+  padding: 28px;
+}
+
+.section .total div:nth-child(1) {
+  border-top: 1px solid #BDBDBD;
+  border-bottom: 1px solid #BDBDBD;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px 0;
+}
+
+.section .total div:nth-child(2) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px 0 0 0;
+}
+
+.section__formulario {
+  padding-top: 21px;
+  padding: 21px 18px 45px 18px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.section__formulario form {
+  margin-top: 12px;
+}
+
+.section__formulario form div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.section__formulario form div label {
+  font-size: 10px;
+  margin-bottom: 8px;
+}
+
+.section__formulario form div input {
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 16px;
+  height: 40px;
+  border-radius: 12px;
+  border: 1px solid #828282;
+  padding: 0 15px;
+}
+
+.section__formulario form .country {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.section__formulario form .save__information {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-bottom: 22px;
+}
+
+.section__formulario form .save__information div {
+  width: 16px;
+  height: 15px;
+  border: 1px solid #828282;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+
+.section__formulario form .save__information p {
+  font-size: 10px;
+}
+
+.section__formulario form button {
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  border: none;
+  background-color: #F2994A;
+  padding: 17px 45px;
+  color: white;
+  border-radius: 12px;
+}
+
+.footer {
+  text-align: center;
+}
+
+.footer p {
+  font-family: 'Montserrat', sans-serif;
+  color: #BDBDBD;
+  font-size: 14px;
+  margin-bottom: 24px;
+}
+
+.footer p span {
+  font-weight: bold;
+  border-bottom: 2px solid #BDBDBD;
+}
+
+@media (min-width: 1200px) {
+  .titulo {
+    padding: 64px 0 0 320px;
+  }
+  .main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    padding: 29px 240px 0 200px;
+  }
+  .main div:nth-child(1) .section {
+    width: 70%;
+  }
+  .main div:nth-child(1) .section .card__1 {
+    width: 86%;
+    height: 80%;
+    padding: 28px 28px 0 28px;
+  }
+  .main div:nth-child(1) .section .card__1--price div:first-child {
+    margin-bottom: 28px;
+  }
+  .main div:nth-child(1) .section .card__1 .button {
+    font-size: 12px;
+    padding: 5px;
+  }
+  .main div:nth-child(1) .section .card__1 .button span {
+    padding: 5px 10px;
+  }
+  .main div:nth-child(1) .section .total {
+    margin-top: 0px;
+    font-size: 14px;
+  }
+  .main div:nth-child(2) .section__formulario {
+    padding-bottom: 0;
+  }
+  .main div:nth-child(2) .section__formulario .country div:nth-child(1) {
+    margin-right: 15px;
+  }
+  .footer {
+    margin-top: 159px;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
